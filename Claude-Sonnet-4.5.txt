@@ -1,0 +1,62 @@
+Claude-Sonnet-4.5  :
+User:  Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend project from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case evaluates:
+- App creation from scratch
+- State-driven UI
+- Component structure clarity
+
+Requirements:
+- Any frontend framework is allowed
+- Project must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT describe UI conceptually
+- Do NOT skip config or entry files
+- Do NOT add features not specified
+
+
+
+GitHub Copilot: I'll build a complete React + Vite project for the Vocabulary Flashcards app based on the specification. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Sonnet-4.5/src/App.css)
+
+Project created! The Vocabulary Flashcards app is ready. To run it:
+
+```powershell
+npm install
+npm run dev
+```
+
+**Project structure:**
+- package.json - Dependencies and scripts
+- vite.config.js - Vite configuration
+- index.html - Entry HTML file
+- main.jsx - React entry point
+- App.jsx - Main app component with state management
+- App.css - Styles
+
+**Implementation details:**
+- State-driven UI using React hooks (`useState`)
+- Mock vocabulary data stored in memory (8 words)
+- Meaning hidden by default
+- "Reveal Meaning" button shows meaning without advancing
+- "Next Word" button cycles through cards and resets meaning visibility
+- Single page application as specified
+
+Made changes.
