@@ -1,0 +1,15 @@
+App Name: Vocabulary Flashcards
+
+Features:
+- Display a word on a card
+- Button to reveal the meaning
+- Button to move to next word
+
+Behavior:
+- Meaning is hidden by default
+- Revealing meaning does not move to next card
+- Cards cycle when reaching the end
+
+Constraints:
+- Data stored in memory
+- Single page
