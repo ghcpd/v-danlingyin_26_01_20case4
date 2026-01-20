@@ -1,0 +1,73 @@
+Claude-Opus-4.5  ：：
+User:  Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend project from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case evaluates:
+- App creation from scratch
+- State-driven UI
+- Component structure clarity
+
+Requirements:
+- Any frontend framework is allowed
+- Project must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT describe UI conceptually
+- Do NOT skip config or entry files
+- Do NOT add features not specified
+
+
+
+GitHub Copilot: I'll build a complete Vocabulary Flashcards app using React with Vite. Let me create all the necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/Claude-Opus-4.5/vocabulary-flashcards/src/App.css)
+
+Now let me install the dependencies and run the project: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.20\case4\Claude-Opus-4.5\vocabulary-flashcards"; npm install
+
+Ran terminal command: npm run dev
+
+Let me run the command directly in the project folder: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.20\case4\Claude-Opus-4.5\vocabulary-flashcards" ; npm run dev
+
+The app is now running. Let me open it in the browser: 
+
+Opened Simple Browser at http://localhost:5173/
+
+The Vocabulary Flashcards app is now running at **http://localhost:5173/**
+
+**Project Structure:**
+- package.json - Project configuration with React and Vite
+- vite.config.js - Vite configuration
+- index.html - Entry HTML file
+- main.jsx - React entry point
+- App.jsx - Main app component with flashcard logic
+- App.css - Styles
+
+**Features implemented per spec:**
+- ✅ Displays a word on a card
+- ✅ "Reveal Meaning" button shows the definition
+- ✅ "Next Word" button advances to the next card
+- ✅ Meaning is hidden by default
+- ✅ Revealing meaning does not auto-advance
+- ✅ Cards cycle back to start when reaching the end
+- ✅ Data stored in memory (mock data with 5 vocabulary words)
+- ✅ Single page application
+
+Made changes.
