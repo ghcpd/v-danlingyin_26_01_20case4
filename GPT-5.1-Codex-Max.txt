@@ -1,0 +1,73 @@
+GPT-5.1-Codex-Max  ：：
+User:  Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend project from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case evaluates:
+- App creation from scratch
+- State-driven UI
+- Component structure clarity
+
+Requirements:
+- Any frontend framework is allowed
+- Project must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT describe UI conceptually
+- Do NOT skip config or entry files
+- Do NOT add features not specified
+
+
+
+GitHub Copilot: Optimizing tool selection...I'll build a complete vocabulary flashcards app using React + Vite based on the specifications. Let me create all the necessary files for a runnable project. 
+
+Created 4 todos
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/index.html)
+
+Starting: *Create React app entry point* (2/4)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/src/main.jsx)
+
+Starting: *Create App component with flashcard logic* (3/4)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/src/App.jsx)
+
+Starting: *Add styling* (4/4)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.20/case4/GPT-5.1-Codex-Max/src/index.css)
+
+Completed: *Add styling* (4/4)
+
+Project created successfully! The Vocabulary Flashcards app is ready to run.
+
+**To start the app:**
+
+```powershell
+npm install
+npm run dev
+```
+
+**Project structure:**
+- package.json - Dependencies and scripts
+- vite.config.js - Vite configuration  
+- index.html - HTML entry point
+- main.jsx - React entry point
+- App.jsx - Main app with flashcard logic and mock data
+- index.css - Styling
+
+**Implementation details:**
+- State management with `useState` for current card index and meaning visibility
+- Mock vocabulary data stored in memory (10 words)
+- Meaning hidden by default, revealed on button click
+- Cards cycle when reaching the end using modulo operator
+- "Reveal Meaning" button disabled after use (until next card)
+
+Made changes.
